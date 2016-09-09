@@ -1,0 +1,7 @@
+name: First block
+description: Creates a page showing "Hello World".
+package: Custom
+configure: firstblock.content
+
+type: module
+core: 8.x

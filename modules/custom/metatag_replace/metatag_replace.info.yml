@@ -1,0 +1,7 @@
+name: Metatag Replace
+description: Metatag replace
+package: SEO
+dependencies:
+    - metatag
+type: module
+core: 8.x

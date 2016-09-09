@@ -1,0 +1,7 @@
+firstmodule.admin:
+  title: 'firstmodule settings'
+  description: 'First module menu links'
+ # parent: entity.metatag_defaults.collection
+  parent: system.admin_config
+  route_name: firstmodule.content
+  weight: 100

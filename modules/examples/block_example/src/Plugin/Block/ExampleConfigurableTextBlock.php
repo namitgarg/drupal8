@@ -53,6 +53,16 @@ class ExampleConfigurableTextBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
+    
+    $block_element=array();
+    $block_element['first_field']=array(
+      '#type' => 'markup',
+      '#markup' => $this->configuration['block_example_string'],
+    );
+    $block_element['second_field']=array(
+      '#type' => 'markup',
+      '#markup' => $this->configuration['block_example_string'],
+    );
     return array(
       '#type' => 'markup',
       '#markup' => $this->configuration['block_example_string'],

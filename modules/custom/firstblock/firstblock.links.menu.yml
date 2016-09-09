@@ -1,0 +1,7 @@
+firstblock.admin:
+  title: 'firstblock settings'
+  description: 'First block links'
+ # parent: entity.metatag_defaults.collection
+  parent: system.admin_config
+  route_name: firstblock.content
+  weight: 100

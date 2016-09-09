@@ -1,0 +1,9 @@
+firstblock.content:
+  path: '/customblock'
+  defaults:
+    _controller: '\Drupal\firstblock\Controller\firstblockController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE  

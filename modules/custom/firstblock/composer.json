@@ -1,0 +1,7 @@
+{
+  "name": "drupal/firstblock",
+  "description": "first module for practice",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "keywords": ["php", "seo", "training"]
+}
