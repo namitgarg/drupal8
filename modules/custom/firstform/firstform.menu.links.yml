@@ -1,0 +1,4 @@
+firstform.admin:
+  title: First form
+  description: First Form  Drupal Form API.
+  route_name: firstform.content

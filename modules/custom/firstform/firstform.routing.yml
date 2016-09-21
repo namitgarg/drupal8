@@ -1,0 +1,7 @@
+firstform.content:
+  path: '/firstform'
+  defaults:
+    _form:  '\Drupal\firstform\Form\FirstForm'
+    _title: 'Simple Form API Example'
+  requirements:
+    _permission: 'access content'

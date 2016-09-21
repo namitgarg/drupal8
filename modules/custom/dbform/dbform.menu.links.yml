@@ -1,0 +1,4 @@
+dbform.link:
+title: Db form
+description: Form to insert into database and Retrieve records from database
+route_name: dbform.content

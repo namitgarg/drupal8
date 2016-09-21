@@ -1,0 +1,6 @@
+name: dbform
+description: dbform to insert into database and display ther ouput form database
+package: custom
+configure: dbform.content
+type: module
+core: 8.x

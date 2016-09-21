@@ -1,0 +1,7 @@
+dbform.content:
+    path: '/dbform'
+    defaults:
+        _form: '\Drupal\dbform\Form\SecondForm'
+        _title: 'DB form Example'
+    requirements:
+        _permission: 'access content'

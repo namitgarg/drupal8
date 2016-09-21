@@ -1,0 +1,7 @@
+{
+  "name": "drupal/dbform",
+  "description": "Db form practice",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "keywords": ["php", "seo", "training", "fapi"]
+}
