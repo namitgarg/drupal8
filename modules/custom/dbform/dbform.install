@@ -42,3 +42,16 @@ function dbform_schema() {
 
   return $schema;
 }
+
+
+function dbform_update_8001()
+{
+  $spec = array(
+    'location' => 'varchar',
+    'description' => "New Col",
+    'length' => 220,
+    'not null' => FALSE,
+  ); 
+  $schema = Database::getConnection()->schema();
+ $schema->addField('dbform', 'newcol', $spec);
+}
